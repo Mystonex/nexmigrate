@@ -1,0 +1,8 @@
+# Build artifacts
+bin/
+obj/
+
+# VS / Rider / user files
+*.user
+*.suo
+.vs/
