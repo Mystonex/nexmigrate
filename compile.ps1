@@ -2,7 +2,8 @@ cd C:\Users\nex\_dev\nexmigrate
 
 dotnet publish -c Release `
   -r win-x64 `
-  --self-contained true `
+  --self-contained false `
   -p:PublishSingleFile=true `
-  -p:IncludeNativeLibrariesForSelfExtract=true `
-  -o ./publish
+  -p:PublishTrimmed=true `
+  -p:EnableCompressionInSingleFile=true `
+  -o ./publish-slim
