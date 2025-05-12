@@ -22,9 +22,9 @@ class Program
                 new SelectionPrompt<string>()
                     .Title("Main Menu")
                     .AddChoices(
-                        "🗑 Remove Installed Apps",
-                        "⬇️ Install Apps",
-                        "❌ Quit"));
+                        "Install Apps",
+                        "Remove Installed Apps",
+                        "Quit"));
 
             if (choice == "❌ Quit")
                 return;
